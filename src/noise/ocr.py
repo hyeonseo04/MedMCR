@@ -143,8 +143,8 @@ def run_experiment(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="OCR Noise Experiment Runner")
-    parser.add_argument("--input", default="/home/hslee/multiagent/data/raw/medqa/medqa_all_clean.jsonl")
-    parser.add_argument("--output", default="/home/hslee/multiagent/data/processed/medqa/ocr")
+    parser.add_argument("--input", default="data/raw/medqa/medqa_all_clean.jsonl")
+    parser.add_argument("--output", default="data/processed/medqa/ocr")
     parser.add_argument("--question-field", default="question")
     parser.add_argument("--noisy-field", default="noisy_question")
     parser.add_argument("--wer", default="0.1,0.2,0.3,0.4")

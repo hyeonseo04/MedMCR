@@ -134,14 +134,14 @@ def main():
     # 입력 경로는 기존 그대로 (Raw 데이터)
     parser.add_argument(
         "--input", 
-        default="/home/hslee/multiagent/data/raw/medqa/medqa_all_clean.jsonl",
+        default="data/raw/medqa/medqa_all_clean.jsonl",
         help="Input JSONL path"
     )
     
     # 출력 경로를 요청하신 Processed 폴더로 변경
     parser.add_argument(
         "--output", 
-        default="/home/hslee/multiagent/data/processed/medqa/typo",
+        default="data/processed/medqa/typo",
         help="Output directory root"
     )
     

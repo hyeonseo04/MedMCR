@@ -2,8 +2,8 @@ import json
 import random
 
 # ===== 설정 =====
-INPUT_PATH = "/home/hslee/multiagent/data/raw/phrases_no_exclude_test.jsonl"
-OUTPUT_PATH = "/home/hslee/multiagent/data/processed/medqa_all_clean.jsonl"
+INPUT_PATH = "data/raw/phrases_no_exclude_test.jsonl"
+OUTPUT_PATH = "data/processed/medqa_all_clean.jsonl"
 SAMPLE_SIZE = 1273
 
 # ===== JSONL 파일 읽기 =====

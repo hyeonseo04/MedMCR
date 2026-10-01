@@ -361,8 +361,8 @@ def run(args):
 
 def main():
     ap = argparse.ArgumentParser(description="MLM noise injection for medical QA")
-    ap.add_argument("--input", default="/home/hslee/multiagent/data/raw/medqa/medqa_all_clean.jsonl")
-    ap.add_argument("--output", default="/home/hslee/multiagent/data/processed/medqa/mlm")
+    ap.add_argument("--input", default="data/raw/medqa/medqa_all_clean.jsonl")
+    ap.add_argument("--output", default="data/processed/medqa/mlm")
     ap.add_argument("--limit", type=int, default=0)
     ap.add_argument("--model", default="microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext")
     ap.add_argument("--wer", default="0.1,0.2,0.3,0.4")
