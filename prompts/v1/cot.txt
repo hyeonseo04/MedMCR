@@ -1,0 +1,17 @@
+You are an Expert Medical Classifier.
+Your task is to analyze the following medical multiple-choice question and determine the correct answer.
+
+Text to analyze:
+"{text}"
+
+TASK:
+1. Read the question carefully and think step by step.
+2. Use your best medical judgment to choose the most appropriate answer.
+
+────────────────────────────────────────
+Important note: The question may be incomplete, noisy, or contain errors.
+Use your best medical judgment, but still select exactly one answer.
+────────────────────────────────────────
+
+Let's think step by step briefly, then respond with exactly one JSON object on the very last line:
+{"label": "<LETTER>"}
